@@ -1,5 +1,6 @@
 package net.catman.cndemod.block;
 
+import net.catman.cndemod.item.ModItemGroups;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 
 
@@ -16,10 +17,13 @@ import net.minecraft.util.registry.Registry;
 public class ModBlocks {
 
     public static final Block kszyniolium_BLOCK = registerBlock("kszyniolium_block",
-            new Block(FabricBlockSettings.of(Material.METAL).strength(6f).requiresTool()), ItemGroup.MISC);
+            new Block(FabricBlockSettings.of(Material.METAL).strength(6f).requiresTool()), ModItemGroups.CnDe);
 
     public static final Block kszyniolium_ORE = registerBlock("kszyniolium_ore",
-            new Block(FabricBlockSettings.of(Material.STONE).strength(4.5f).requiresTool()), ItemGroup.MISC);
+            new Block(FabricBlockSettings.of(Material.STONE).strength(4.5f).requiresTool()), ModItemGroups.CnDe);
+
+    public static final Block kszyniolium_BRICK = registerBlock("kszyniolium_brick",
+            new Block(FabricBlockSettings.of(Material.METAL).hardness(3f).resistance(14f).requiresTool()), ModItemGroups.CnDe);
 
 
     private static Block registerBlock(String name, Block block, ItemGroup group) {

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "pattern": [
+    "DDD",
+    "DXC",
+    "CCC"
+  ],
+  "key": {
+    "D": {
+      "item": "minecraft:dirt"
+    },
+    "X": {
+      "item": "cndemod:kszyniolium_ingot"
+    },
+    "C": {
+      "item": "minecraft:clay_ball"
+    }
+  },
+  "result": {
+    "item": "cndemod:kszyniolium_brick",
+    "count": 16
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "cndemod:kszyniolium_raw"
+  },
+  "result": "cndemod:kszyniolium_ingot",
+  "experience": 0.7,
+  "cookingtime": 200
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "cndemod:kszyniolium_raw"
+  },
+  "result": "cndemod:kszyniolium_ingot",
+  "experience": 2,
+  "cookingtime": 100
+}

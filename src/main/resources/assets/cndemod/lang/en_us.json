@@ -1,7 +1,12 @@
 {
-  "item.cndemod.kszyniolium_ingot": "Kszyniolium Ingot",
+  "item.cndemod.kszyniolium_ingot":  "Kszyniolium Ingot",
   "item.cndemod.kszyniolium_nugget": "Kszyniolium Nugger",
+  "item.cndemod.kszyniolium_raw":    "Raw Kszyniolium",
+  "item.cndemod.iudex_gundyr_spawn_egg": "Iudex Gundyr spawn egg",
 
   "block.cndemod.kszyniolium_block": "Kszyniolium Block",
-  "block.cndemod.kszyniolium_ore": "Kszyniolium Ore"
+  "block.cndemod.kszyniolium_ore":   "Kszyniolium Ore",
+  "block.cndemod.kszyniolium_brick":"Kszyniolium Brick",
+
+  "itemGroup.cndemod.cndes": "Cnde Tab"
 }
